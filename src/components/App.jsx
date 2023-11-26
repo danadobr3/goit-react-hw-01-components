@@ -1,12 +1,13 @@
-import user from './Profile/user.json'
 import React from 'react'
 import Profile from './Profile/Profile'
-import data from './Statistics/data.json'
 import Statistics from './Statistics/Statistics'
-import friends from './FriendList/friends.json'
 import FriendList from './FriendList/FriendList'
 import TransactionHistory from './TransactionHistory/TransactionHistory'
-import transactions from './TransactionHistory/transactions.json'
+
+import user from './Data/user.json'
+import data from './Data/data.json'
+import friends from './Data/friends.json'
+import transactions from './Data/transactions.json'
 
 const App = () => {
   return (

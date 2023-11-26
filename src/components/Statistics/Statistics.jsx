@@ -1,19 +1,5 @@
 import styles from './Statistics.module.css'
-
-const getBgColor = () => {
-  const color =
-    'rgba(' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    Math.round(Math.random() * 255) +
-    ',' +
-    0.5 +
-    ')';
-
-  return color;
-};
+import { getBgColor } from '../Helpers/GetBgColor';
 
 export default function Statistics({ title, stats }) {
     return (
