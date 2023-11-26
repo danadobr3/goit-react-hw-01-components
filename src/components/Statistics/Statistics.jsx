@@ -1,5 +1,5 @@
 import styles from './Statistics.module.css'
-import { getBgColor } from '../Helpers/GetBgColor';
+import { getBgColor } from '../helpers/GetBgColor';
 
 export default function Statistics({ title, stats }) {
     return (
